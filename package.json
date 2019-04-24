@@ -1,0 +1,66 @@
+{
+	"name": "nuxt-vuikit",
+	"main": "lib/module.js",
+	"preferGlobal": false,
+	"version": "0.0.1",
+	"description": "Vuikit Module for Nuxt.js",
+	"author": {
+		"name": "Tiago Danin",
+		"email": "TiagoDanin@outlook.com",
+		"url": "https://TiagoDanin.github.io"
+	},
+	"license": "MIT",
+	"keywords": [
+		"nuxt",
+		"nuxt-module",
+		"nuxt-plugin",
+		"nuxtjs",
+		"uikit",
+		"uikit-components",
+		"uikit3",
+		"vue",
+		"vue-plugin",
+		"vuejs",
+		"vuejs-plugin",
+		"vuikit"
+	],
+	"scripts": {
+		"start": "nuxt example",
+		"test": "ava"
+	},
+	"engines": {
+		"node": ">=8"
+	},
+	"private": false,
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/TiagoDanin/Nuxt-Vuikit.git"
+	},
+	"homepage": "https://TiagoDanin.github.io/Nuxt-Vuikit",
+	"bugs": {
+		"url": "https://github.com/TiagoDanin/Nuxt-Vuikit/issues"
+	},
+	"github": {
+		"name": "Nuxt-Vuikit",
+		"owner": "TiagoDanin"
+	},
+	"files": [
+		"LICENSE",
+		"README.md",
+		"lib",
+		"package.json"
+	],
+	"dependencies": {
+		"@vuikit/icons": "0.8.1",
+		"@vuikit/theme": "0.8.1",
+		"debug": "4.1.1",
+		"vuikit": "0.8.10"
+	},
+	"devDependencies": {
+		"ava": "1.4.1",
+		"got": "9.6.0",
+		"nuxt": "2.6.2",
+		"vue": "2.6.10"
+	},
+	"documentation": "./documentation.md"
+}
