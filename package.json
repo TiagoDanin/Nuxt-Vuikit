@@ -2,7 +2,7 @@
 	"name": "nuxt-vuikit",
 	"main": "lib/module.js",
 	"preferGlobal": false,
-	"version": "0.0.1",
+	"version": "1.0.0",
 	"description": "Vuikit Module for Nuxt.js",
 	"author": {
 		"name": "Tiago Danin",
