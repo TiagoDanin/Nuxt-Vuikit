@@ -51,10 +51,10 @@
 		"package.json"
 	],
 	"dependencies": {
-		"@vuikit/icons": "0.8.1",
-		"@vuikit/theme": "0.8.1",
+		"@vuikit/icons": "^0.8.1",
+		"@vuikit/theme": "^0.8.1",
 		"debug": "^4.1.1",
-		"vuikit": "0.8.10"
+		"vuikit": "^0.8.10"
 	},
 	"devDependencies": {
 		"ava": "^1.4.1",
