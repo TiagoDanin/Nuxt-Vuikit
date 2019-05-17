@@ -1,6 +1,6 @@
 # Nuxt Vuikit
 
-[![Node](https://img.shields.io/node/v/nuxt-vuikit.svg?style=flat-square)](https://npmjs.org/package/nuxt-vuikit) [![Version](https://img.shields.io/npm/v/nuxt-vuikit.svg?style=flat-square)](https://npmjs.org/package/nuxt-vuikit) [![Downloads](https://img.shields.io/npm/dt/nuxt-vuikit.svg?style=flat-square)](https://npmjs.org/package/nuxt-vuikit) [![Travis](https://img.shields.io/travis/TiagoDanin/Nuxt-Vuikit.svg?branch=master&style=flat-square)](https://travis-ci.org/TiagoDanin/Nuxt-Vuikit) 
+[![Travis](https://img.shields.io/travis/TiagoDanin/Nuxt-Vuikit.svg?branch=master&style=flat-square)](https://travis-ci.org/TiagoDanin/Nuxt-Vuikit) [![XO code style](https://img.shields.io/badge/code%20style-XO-red.svg?style=flat-square)](https://github.com/xojs/xo) [![Node](https://img.shields.io/node/v/nuxt-vuikit.svg?style=flat-square)](https://npmjs.org/package/nuxt-vuikit) [![Version](https://img.shields.io/npm/v/nuxt-vuikit.svg?style=flat-square)](https://npmjs.org/package/nuxt-vuikit) [![Downloads](https://img.shields.io/npm/dt/nuxt-vuikit.svg?style=flat-square)](https://npmjs.org/package/nuxt-vuikit) 
 
 Vuikit Module for Nuxt.js
 
@@ -69,6 +69,7 @@ yarn test
 - [got](https://ghub.io/got): Simplified HTTP requests
 - [nuxt](https://ghub.io/nuxt): A minimalistic framework for server-rendered Vue.js applications (inspired by Next.js)
 - [vue](https://ghub.io/vue): Reactive, component-oriented view layer for modern web interfaces.
+- [xo](https://ghub.io/xo): JavaScript happiness style linter ❤️
 
 ## Contributors
 
