@@ -1,8 +1,10 @@
 # Nuxt Vuikit
 
-[![Travis](https://img.shields.io/travis/TiagoDanin/Nuxt-Vuikit.svg?branch=master&style=flat-square)](https://travis-ci.org/TiagoDanin/Nuxt-Vuikit) [![XO code style](https://img.shields.io/badge/code%20style-XO-red.svg?style=flat-square)](https://github.com/xojs/xo) [![Node](https://img.shields.io/node/v/nuxt-vuikit.svg?style=flat-square)](https://npmjs.org/package/nuxt-vuikit) [![Version](https://img.shields.io/npm/v/nuxt-vuikit.svg?style=flat-square)](https://npmjs.org/package/nuxt-vuikit) [![Downloads](https://img.shields.io/npm/dt/nuxt-vuikit.svg?style=flat-square)](https://npmjs.org/package/nuxt-vuikit) 
+[![Travis](https://img.shields.io/travis/TiagoDanin/Nuxt-Vuikit.svg?branch=master&style=flat-square)](https://travis-ci.org/TiagoDanin/Nuxt-Vuikit) [![Downloads](https://img.shields.io/npm/dt/nuxt-vuikit.svg?style=flat-square)](https://npmjs.org/package/nuxt-vuikit) [![Node](https://img.shields.io/node/v/nuxt-vuikit.svg?style=flat-square)](https://npmjs.org/package/nuxt-vuikit) [![Version](https://img.shields.io/npm/v/nuxt-vuikit.svg?style=flat-square)](https://npmjs.org/package/nuxt-vuikit) [![XO code style](https://img.shields.io/badge/code%20style-XO-red.svg?style=flat-square)](https://github.com/xojs/xo) 
 
 Vuikit Module for Nuxt.js
+
+![](screenshot.png)
 
 ## Installation
 
