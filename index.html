@@ -84,13 +84,13 @@ baseURL: https://tiagodanin.github.io
 	<h1 id="nuxt-vuikit"><a href="#nuxt-vuikit">Nuxt Vuikit</a></h1>
 <p><a href="https://travis-ci.org/TiagoDanin/Nuxt-Vuikit"><img src="https://img.shields.io/travis/TiagoDanin/Nuxt-Vuikit.svg?branch=master&#x26;style=flat-square" alt="Travis"></a> <a href="https://npmjs.org/package/nuxt-vuikit"><img src="https://img.shields.io/npm/dt/nuxt-vuikit.svg?style=flat-square" alt="Downloads"></a> <a href="https://npmjs.org/package/nuxt-vuikit"><img src="https://img.shields.io/node/v/nuxt-vuikit.svg?style=flat-square" alt="Node"></a> <a href="https://npmjs.org/package/nuxt-vuikit"><img src="https://img.shields.io/npm/v/nuxt-vuikit.svg?style=flat-square" alt="Version"></a> <a href="https://github.com/xojs/xo"><img src="https://img.shields.io/badge/code%20style-XO-red.svg?style=flat-square" alt="XO code style"></a> </p>
 <p>Vuikit Module for Nuxt.js</p>
-<p><img src="screenshot.png"></p>
+<p align="center"><img src="screenshot.png"></p>
 <h2 id="installation"><a href="#installation">Installation</a></h2>
-<p>Module available through the <a href="https://www.npmjs.com/">npm registry</a>. It can be installed using the  <a href="https://docs.npmjs.com/getting-started/installing-npm-packages-locally"><code>npm</code></a> or <a href="https://yarnpkg.com/en/"><code>yarn</code></a> command line tools.</p>
-<pre><code class="hljs language-sh"><span class="hljs-comment"># NPM</span>
-npm install nuxt-vuikit --save
-<span class="hljs-comment"># Or Using Yarn</span>
-yarn add nuxt-vuikit</code></pre>
+<p>Module available through the <a href="https://www.npmjs.com/">npm registry</a>. It can be installed using the <a href="https://docs.npmjs.com/getting-started/installing-npm-packages-locally"><code>npm</code></a> or <a href="https://yarnpkg.com/en/"><code>yarn</code></a> command line tool.</p>
+<pre><code class="hljs language-sh"><span class="hljs-comment"># Yarn (Recomend)</span>
+yarn add nuxt-vuikit
+<span class="hljs-comment"># NPM </span>
+npm install nuxt-vuikit --save</code></pre>
 <h2 id="documentation"><a href="#documentation">Documentation</a></h2>
 <h3 id="setup"><a href="#setup">Setup</a></h3>
 <ul>
@@ -120,25 +120,64 @@ yarn add nuxt-vuikit</code></pre>
 </ul>
 <h2 id="tests"><a href="#tests">Tests</a></h2>
 <p>To run the test suite, first install the dependencies, then run <code>test</code>:</p>
-<pre><code class="hljs language-sh"><span class="hljs-comment"># NPM</span>
-npm <span class="hljs-built_in">test</span>
-<span class="hljs-comment"># Or Using Yarn</span>
+<pre><code class="hljs language-sh"><span class="hljs-comment"># Using Yarn</span>
 yarn <span class="hljs-built_in">test</span></code></pre>
 <h2 id="dependencies"><a href="#dependencies">Dependencies</a></h2>
-<ul>
-<li><a href="https://ghub.io/@vuikit/icons">@vuikit/icons</a>: UIkit icons as Vue functional components</li>
-<li><a href="https://ghub.io/@vuikit/theme">@vuikit/theme</a>: Vuikit default theme based on UIkit</li>
-<li><a href="https://ghub.io/debug">debug</a>: small debugging utility</li>
-<li><a href="https://ghub.io/vuikit">vuikit</a>: A responsive Vue UI library for web site interfaces based on UIkit</li>
-</ul>
+<details>
+	<summary><a href="https://ghub.io/@vuikit/icons">@vuikit/icons</a>: UIkit icons as Vue functional components</summary>
+	<b>Author</b>: Miljan Aleksic</br>
+	<b>License</b>: MIT</br>
+	<b>Version</b>: ^0.8.1
+</details>
+<details>
+	<summary><a href="https://ghub.io/@vuikit/theme">@vuikit/theme</a>: Vuikit default theme based on UIkit</summary>
+	<b>Author</b>: Miljan Aleksic</br>
+	<b>License</b>: MIT</br>
+	<b>Version</b>: ^0.8.1
+</details>
+<details>
+	<summary><a href="https://ghub.io/debug">debug</a>: small debugging utility</summary>
+	<b>Author</b>: TJ Holowaychuk</br>
+	<b>License</b>: MIT</br>
+	<b>Version</b>: ^4.1.1
+</details>
+<details>
+	<summary><a href="https://ghub.io/vuikit">vuikit</a>: A responsive Vue UI library for web site interfaces based on UIkit</summary>
+	<b>Author</b>: Miljan Aleksic</br>
+	<b>License</b>: MIT</br>
+	<b>Version</b>: ^0.8.10
+</details>
 <h2 id="dev-dependencies"><a href="#dev-dependencies">Dev Dependencies</a></h2>
-<ul>
-<li><a href="https://ghub.io/ava">ava</a>: Testing can be a drag. AVA helps you get it done.</li>
-<li><a href="https://ghub.io/got">got</a>: Simplified HTTP requests</li>
-<li><a href="https://ghub.io/nuxt">nuxt</a>: A minimalistic framework for server-rendered Vue.js applications (inspired by Next.js)</li>
-<li><a href="https://ghub.io/vue">vue</a>: Reactive, component-oriented view layer for modern web interfaces.</li>
-<li><a href="https://ghub.io/xo">xo</a>: JavaScript happiness style linter ❤️</li>
-</ul>
+<details>
+	<summary><a href="https://ghub.io/ava">ava</a>: Node.js test runner that lets you develop with confidence.</summary>
+	<b>Author</b>: novemberborn, sindresorhus, vdemedes</br>
+	<b>License</b>: MIT</br>
+	<b>Version</b>: ^3.8.2
+</details>
+<details>
+	<summary><a href="https://ghub.io/got">got</a>: Human-friendly and powerful HTTP request library for Node.js</summary>
+	<b>Author</b>: sindresorhus, szmarczak</br>
+	<b>License</b>: MIT</br>
+	<b>Version</b>: ^11.1.4
+</details>
+<details>
+	<summary><a href="https://ghub.io/nuxt">nuxt</a>: A minimalistic framework for server-rendered Vue.js applications (inspired by Next.js)</summary>
+	<b>Author</b>: atinux, pi0</br>
+	<b>License</b>: MIT</br>
+	<b>Version</b>: ^2.12.2
+</details>
+<details>
+	<summary><a href="https://ghub.io/vue">vue</a>: Reactive, component-oriented view layer for modern web interfaces.</summary>
+	<b>Author</b>: Evan You</br>
+	<b>License</b>: MIT</br>
+	<b>Version</b>: ^2.6.11
+</details>
+<details>
+	<summary><a href="https://ghub.io/xo">xo</a>: JavaScript/TypeScript linter with great defaults</summary>
+	<b>Author</b>: Sindre Sorhus</br>
+	<b>License</b>: MIT</br>
+	<b>Version</b>: ^0.30.0
+</details>
 <h2 id="contributors"><a href="#contributors">Contributors</a></h2>
 <p>Pull requests and stars are always welcome. For bugs and feature requests, please <a href="https://github.com/TiagoDanin/Nuxt-Vuikit/issues">create an issue</a>. <a href="https://github.com/TiagoDanin/Nuxt-Vuikit/graphs/contributors">List of all contributors</a>.</p>
 <h2 id="license"><a href="#license">License</a></h2>
