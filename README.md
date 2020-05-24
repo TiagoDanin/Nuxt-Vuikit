@@ -4,17 +4,17 @@
 
 Vuikit Module for Nuxt.js
 
-![](screenshot.png)
+<p align="center"><img src="screenshot.png"></p>
 
 ## Installation
 
-Module available through the [npm registry](https://www.npmjs.com/). It can be installed using the  [`npm`](https://docs.npmjs.com/getting-started/installing-npm-packages-locally) or [`yarn`](https://yarnpkg.com/en/) command line tools.
+Module available through the [npm registry](https://www.npmjs.com/). It can be installed using the [`npm`](https://docs.npmjs.com/getting-started/installing-npm-packages-locally) or [`yarn`](https://yarnpkg.com/en/) command line tool.
 
 ```sh
-# NPM
-npm install nuxt-vuikit --save
-# Or Using Yarn
+# Yarn (Recomend)
 yarn add nuxt-vuikit
+# NPM 
+npm install nuxt-vuikit --save
 ```
 
 ## Documentation
@@ -52,26 +52,69 @@ Load UiKit3 icons
 To run the test suite, first install the dependencies, then run `test`:
 
 ```sh
-# NPM
-npm test
-# Or Using Yarn
+# Using Yarn
 yarn test
 ```
 
 ## Dependencies
 
-- [@vuikit/icons](https://ghub.io/@vuikit/icons): UIkit icons as Vue functional components
-- [@vuikit/theme](https://ghub.io/@vuikit/theme): Vuikit default theme based on UIkit
-- [debug](https://ghub.io/debug): small debugging utility
-- [vuikit](https://ghub.io/vuikit): A responsive Vue UI library for web site interfaces based on UIkit
+<details>
+	<summary><a href="https://ghub.io/@vuikit/icons">@vuikit/icons</a>: UIkit icons as Vue functional components</summary>
+	<b>Author</b>: Miljan Aleksic</br>
+	<b>License</b>: MIT</br>
+	<b>Version</b>: ^0.8.1
+</details>
+<details>
+	<summary><a href="https://ghub.io/@vuikit/theme">@vuikit/theme</a>: Vuikit default theme based on UIkit</summary>
+	<b>Author</b>: Miljan Aleksic</br>
+	<b>License</b>: MIT</br>
+	<b>Version</b>: ^0.8.1
+</details>
+<details>
+	<summary><a href="https://ghub.io/debug">debug</a>: small debugging utility</summary>
+	<b>Author</b>: TJ Holowaychuk</br>
+	<b>License</b>: MIT</br>
+	<b>Version</b>: ^4.1.1
+</details>
+<details>
+	<summary><a href="https://ghub.io/vuikit">vuikit</a>: A responsive Vue UI library for web site interfaces based on UIkit</summary>
+	<b>Author</b>: Miljan Aleksic</br>
+	<b>License</b>: MIT</br>
+	<b>Version</b>: ^0.8.10
+</details>
 
 ## Dev Dependencies
 
-- [ava](https://ghub.io/ava): Testing can be a drag. AVA helps you get it done.
-- [got](https://ghub.io/got): Simplified HTTP requests
-- [nuxt](https://ghub.io/nuxt): A minimalistic framework for server-rendered Vue.js applications (inspired by Next.js)
-- [vue](https://ghub.io/vue): Reactive, component-oriented view layer for modern web interfaces.
-- [xo](https://ghub.io/xo): JavaScript happiness style linter ❤️
+<details>
+	<summary><a href="https://ghub.io/ava">ava</a>: Node.js test runner that lets you develop with confidence.</summary>
+	<b>Author</b>: novemberborn, sindresorhus, vdemedes</br>
+	<b>License</b>: MIT</br>
+	<b>Version</b>: ^3.8.2
+</details>
+<details>
+	<summary><a href="https://ghub.io/got">got</a>: Human-friendly and powerful HTTP request library for Node.js</summary>
+	<b>Author</b>: sindresorhus, szmarczak</br>
+	<b>License</b>: MIT</br>
+	<b>Version</b>: ^11.1.4
+</details>
+<details>
+	<summary><a href="https://ghub.io/nuxt">nuxt</a>: A minimalistic framework for server-rendered Vue.js applications (inspired by Next.js)</summary>
+	<b>Author</b>: atinux, pi0</br>
+	<b>License</b>: MIT</br>
+	<b>Version</b>: ^2.12.2
+</details>
+<details>
+	<summary><a href="https://ghub.io/vue">vue</a>: Reactive, component-oriented view layer for modern web interfaces.</summary>
+	<b>Author</b>: Evan You</br>
+	<b>License</b>: MIT</br>
+	<b>Version</b>: ^2.6.11
+</details>
+<details>
+	<summary><a href="https://ghub.io/xo">xo</a>: JavaScript/TypeScript linter with great defaults</summary>
+	<b>Author</b>: Sindre Sorhus</br>
+	<b>License</b>: MIT</br>
+	<b>Version</b>: ^0.30.0
+</details>
 
 ## Contributors
 
