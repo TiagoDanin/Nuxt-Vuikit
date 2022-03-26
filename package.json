@@ -53,7 +53,7 @@
 	"dependencies": {
 		"@vuikit/icons": "^0.8.1",
 		"@vuikit/theme": "^0.8.1",
-		"debug": "^4.2.0",
+		"debug": "^4.3.4",
 		"vuikit": "^0.8.10"
 	},
 	"devDependencies": {
